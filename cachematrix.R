@@ -1,7 +1,4 @@
 ## makeCacheMatrix will create a special "matrix" object that can cache its inverse
-## cacheSolve will compute the inverse of the space "matrix" returned by makeCacheMatrix
-
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -17,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
          getinverse = getinverse)
 }
 
-## Write a short comment describing this function
+## cacheSolve will compute the inverse of the space "matrix" returned by makeCacheMatrix
 
 cacheInverse <- function(x, ...) {
     m <- x$getinverse()
